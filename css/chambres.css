@@ -1,0 +1,38 @@
+#chambres{
+
+}
+
+#chambres .roomMenu{
+	text-align: center;
+}
+
+#chambres .room{
+	display: block;
+	height: 17vw;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+	background-position: 50% 50%;
+	text-align: center;
+}
+
+#chambres #cezembre{
+	background-image: url("../images/cezembre/cezembre01.jpg");
+}
+#chambres #harbour{
+	background-image: url("../images/harbour/harbour01.jpg");
+}
+#chambres #familiale{
+	background-image: url("../images/familiale/familiale04.jpg");
+}
+
+
+#chambres .room h2{
+line-height: 17vw;
+font-size: 6vw;
+color: rgba(255,255,255,0.7);
+margin: 5px auto;
+}
+
+footer {
+	background: rgba(255,255,255,1);
+}

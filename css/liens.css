@@ -1,0 +1,50 @@
+#liens{
+	padding: 0 120px 100px;
+}
+
+h2{
+	font-size: 6vw;
+	text-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+	font-family: 'Pinyon Script', cursive;
+}
+
+.liens{
+    display: inline-block;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.liens h3{
+
+}
+
+.liens .liens-image{
+	height: 100%;
+	width: 100%;
+}
+
+@media screen and (max-width: 930px) {
+    #liens{
+        padding: 0 20px 20px;
+    }
+
+    #liens h2{
+        font-size: 45px;
+    }
+    #liens h3{
+        font-size: 25px;
+        margin: 0;
+        font-weight: 300;
+    }
+
+    .liens{
+        display: inline-block;
+        width: 90%;
+        height: auto;
+        overflow: hidden;
+    }
+    .liens-image{
+        display: none;
+    }
+}

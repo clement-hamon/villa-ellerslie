@@ -1,0 +1,24 @@
+.map{
+	width: 100%;
+    height: 380px;
+	position: relative;
+}
+.map iframe{
+    height: 100%;
+}
+.map .overlay{
+   background:transparent; 
+   position:absolute; 
+   width:100%;
+   height:100%; /* your iframe height */
+   top:0; left: 0; /* your iframe height */
+   z-index: 100;
+}
+
+.form-control,.input-group,#contact_message{
+	width: 100%;
+}
+
+footer{
+	position: static;
+}
